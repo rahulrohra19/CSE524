@@ -11,8 +11,8 @@ import time
 
 
 with tf.device('/gpu:0'):
-    a = tf.random_normal([2000, 5000])
-    b = tf.random_normal([5000, 1000])
+    a = tf.random_normal([20000, 50000])
+    b = tf.random_normal([50000, 10000])
     res = tf.matmul(a, b)
 
 config_proto = tf.ConfigProto(graph_options=tf.GraphOptions(build_cost_model=1))
@@ -38,8 +38,8 @@ for i in range(10):
 
     if i != 0:
         jsonObj = MessageToJson(run_metadata)
-        #with open('logs/metadata/matmul_%d.json' % (i), 'w') as outfile:
-        #    json.dump(jsonObj, outfile)
+        with open('logs/metadata/matmul_%d.json' % (i), 'w') as outfile:
+            json.dump(jsonObj, outfile)
 
         trace = timeline.Timeline(step_stats=run_metadata.step_stats)
 	trace_file = open('logs/timeline/matmul_%d_.ctf.json' % (i), 'w')

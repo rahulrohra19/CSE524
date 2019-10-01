@@ -75,7 +75,7 @@
         {
             "ph": "M",
             "args": {
-                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Compute"
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
             },
             "pid": 9,
             "name": "process_name"
@@ -83,7 +83,7 @@
         {
             "ph": "M",
             "args": {
-                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Tensors"
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
             },
             "pid": 10,
             "name": "process_name"
@@ -91,7 +91,7 @@
         {
             "ph": "M",
             "args": {
-                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
+                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Compute"
             },
             "pid": 11,
             "name": "process_name"
@@ -99,7 +99,7 @@
         {
             "ph": "M",
             "args": {
-                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
+                "name": "/job:localhost/replica:0/task:0/device:GPU:0 Tensors"
             },
             "pid": 12,
             "name": "process_name"
@@ -111,11 +111,11 @@
                 "op": "unknown"
             },
             "pid": 1,
-            "ts": 1568960091632272,
+            "ts": 1569897628053184,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 617
+            "dur": 60618
         },
         {
             "name": "unknown",
@@ -124,11 +124,11 @@
                 "op": "unknown"
             },
             "pid": 3,
-            "ts": 1568960091627555,
+            "ts": 1569897623096537,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 293
+            "dur": 22403
         },
         {
             "name": "unknown",
@@ -137,11 +137,11 @@
                 "op": "unknown"
             },
             "pid": 3,
-            "ts": 1568960091627850,
+            "ts": 1569897623118942,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 131
+            "dur": 11198
         },
         {
             "name": "unknown",
@@ -150,11 +150,11 @@
                 "op": "unknown"
             },
             "pid": 3,
-            "ts": 1568960091627982,
+            "ts": 1569897623130143,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 311
+            "dur": 31576
         },
         {
             "name": "unknown",
@@ -163,11 +163,11 @@
                 "op": "unknown"
             },
             "pid": 3,
-            "ts": 1568960091628295,
+            "ts": 1569897623161721,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 157
+            "dur": 15762
         },
         {
             "name": "unknown",
@@ -176,11 +176,11 @@
                 "op": "unknown"
             },
             "pid": 3,
-            "ts": 1568960091628453,
+            "ts": 1569897623177484,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 311
+            "dur": 31572
         },
         {
             "name": "unknown",
@@ -189,11 +189,11 @@
                 "op": "unknown"
             },
             "pid": 3,
-            "ts": 1568960091628766,
+            "ts": 1569897623209057,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 157
+            "dur": 15754
         },
         {
             "name": "unknown",
@@ -202,11 +202,11 @@
                 "op": "unknown"
             },
             "pid": 3,
-            "ts": 1568960091628924,
+            "ts": 1569897623224812,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 3344
+            "dur": 4828368
         },
         {
             "name": "RandomStandardNormal#id=4,device=/job",
@@ -215,11 +215,11 @@
                 "op": "RandomStandardNormal#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091627555,
+            "ts": 1569897623096537,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 293
+            "dur": 22403
         },
         {
             "name": "RandomStandardNormal#id=4,device=/job",
@@ -228,11 +228,11 @@
                 "op": "RandomStandardNormal#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091627850,
+            "ts": 1569897623118942,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 131
+            "dur": 11198
         },
         {
             "name": "Mul#id=4,device=/job",
@@ -241,11 +241,11 @@
                 "op": "Mul#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091627982,
+            "ts": 1569897623130143,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 311
+            "dur": 31576
         },
         {
             "name": "Mul#id=4,device=/job",
@@ -254,11 +254,11 @@
                 "op": "Mul#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091628295,
+            "ts": 1569897623161721,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 157
+            "dur": 15762
         },
         {
             "name": "Add#id=4,device=/job",
@@ -267,11 +267,11 @@
                 "op": "Add#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091628453,
+            "ts": 1569897623177484,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 311
+            "dur": 31572
         },
         {
             "name": "Add#id=4,device=/job",
@@ -280,11 +280,11 @@
                 "op": "Add#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091628766,
+            "ts": 1569897623209057,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 157
+            "dur": 15754
         },
         {
             "name": "MatMul#id=4,device=/job",
@@ -293,11 +293,11 @@
                 "op": "MatMul#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091628924,
+            "ts": 1569897623224812,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 3344
+            "dur": 4828368
         },
         {
             "name": "_Send#id=4,device=/job",
@@ -306,11 +306,11 @@
                 "op": "_Send#id=4,device=/job"
             },
             "pid": 5,
-            "ts": 1568960091632272,
+            "ts": 1569897628053184,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 617
+            "dur": 60618
         },
         {
             "name": "unknown",
@@ -319,11 +319,11 @@
                 "op": "unknown"
             },
             "pid": 7,
-            "ts": 1568960091627363,
+            "ts": 1569897623096415,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 11
+            "dur": 12
         },
         {
             "name": "NoOp",
@@ -332,201 +332,7 @@
                 "op": "NoOp"
             },
             "pid": 9,
-            "ts": 1568960091627368,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 33
-        },
-        {
-            "name": "Const",
-            "args": {
-                "name": "random_normal/shape",
-                "op": "Const"
-            },
-            "pid": 9,
-            "ts": 1568960091627413,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 17
-        },
-        {
-            "name": "Const",
-            "args": {
-                "name": "random_normal/mean",
-                "op": "Const"
-            },
-            "pid": 9,
-            "ts": 1568960091627435,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 11
-        },
-        {
-            "name": "Const",
-            "args": {
-                "name": "random_normal/stddev",
-                "op": "Const"
-            },
-            "pid": 9,
-            "ts": 1568960091627448,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 9
-        },
-        {
-            "name": "Const",
-            "args": {
-                "name": "random_normal_1/shape",
-                "op": "Const"
-            },
-            "pid": 9,
-            "ts": 1568960091627459,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 8
-        },
-        {
-            "name": "Const",
-            "args": {
-                "name": "random_normal_1/mean",
-                "op": "Const"
-            },
-            "pid": 9,
-            "ts": 1568960091627470,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 8
-        },
-        {
-            "name": "Const",
-            "args": {
-                "name": "random_normal_1/stddev",
-                "op": "Const"
-            },
-            "pid": 9,
-            "ts": 1568960091627480,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 8
-        },
-        {
-            "name": "RandomStandardNormal",
-            "args": {
-                "input0": "random_normal/shape",
-                "name": "random_normal/RandomStandardNormal",
-                "op": "RandomStandardNormal"
-            },
-            "pid": 9,
-            "ts": 1568960091627491,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 122
-        },
-        {
-            "name": "RandomStandardNormal",
-            "args": {
-                "input0": "random_normal_1/shape",
-                "name": "random_normal_1/RandomStandardNormal",
-                "op": "RandomStandardNormal"
-            },
-            "pid": 9,
-            "ts": 1568960091627632,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 57
-        },
-        {
-            "name": "Mul",
-            "args": {
-                "input0": "random_normal/RandomStandardNormal",
-                "input1": "random_normal/stddev",
-                "name": "random_normal/mul",
-                "op": "Mul"
-            },
-            "pid": 9,
-            "ts": 1568960091627700,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 67
-        },
-        {
-            "name": "Mul",
-            "args": {
-                "input0": "random_normal_1/RandomStandardNormal",
-                "input1": "random_normal_1/stddev",
-                "name": "random_normal_1/mul",
-                "op": "Mul"
-            },
-            "pid": 9,
-            "ts": 1568960091627772,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 47
-        },
-        {
-            "name": "Add",
-            "args": {
-                "input0": "random_normal/mul",
-                "input1": "random_normal/mean",
-                "name": "random_normal",
-                "op": "Add"
-            },
-            "pid": 9,
-            "ts": 1568960091627822,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 43
-        },
-        {
-            "name": "Add",
-            "args": {
-                "input0": "random_normal_1/mul",
-                "input1": "random_normal_1/mean",
-                "name": "random_normal_1",
-                "op": "Add"
-            },
-            "pid": 9,
-            "ts": 1568960091627869,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 55
-        },
-        {
-            "name": "MatMul",
-            "args": {
-                "input0": "random_normal",
-                "input1": "random_normal_1",
-                "name": "MatMul",
-                "op": "MatMul"
-            },
-            "pid": 9,
-            "ts": 1568960091627929,
-            "cat": "Op",
-            "tid": 0,
-            "ph": "X",
-            "dur": 71
-        },
-        {
-            "name": "NoOp",
-            "args": {
-                "name": "_SOURCE",
-                "op": "NoOp"
-            },
-            "pid": 11,
-            "ts": 1568960091627331,
+            "ts": 1569897623096370,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
@@ -539,17 +345,17 @@
                 "name": "_retval_MatMul_0_0",
                 "op": "_Retval"
             },
-            "pid": 11,
-            "ts": 1568960091633054,
+            "pid": 9,
+            "ts": 1569897628113920,
             "cat": "Op",
             "tid": 0,
             "ph": "X",
-            "dur": 26
+            "dur": 35
         },
         {
             "name": "MatMul",
-            "pid": 9,
-            "ts": 1568960091628000,
+            "pid": 11,
+            "ts": 1569897623096692,
             "cat": "DataFlow",
             "tid": 0,
             "ph": "s",
@@ -557,12 +363,206 @@
         },
         {
             "name": "MatMul",
-            "pid": 11,
-            "ts": 1568960091633054,
+            "pid": 9,
+            "ts": 1569897628113920,
             "cat": "DataFlow",
             "tid": 0,
             "ph": "t",
             "id": 0
+        },
+        {
+            "name": "NoOp",
+            "args": {
+                "name": "_SOURCE",
+                "op": "NoOp"
+            },
+            "pid": 11,
+            "ts": 1569897623096350,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 18
+        },
+        {
+            "name": "Const",
+            "args": {
+                "name": "random_normal/shape",
+                "op": "Const"
+            },
+            "pid": 11,
+            "ts": 1569897623096375,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 9
+        },
+        {
+            "name": "Const",
+            "args": {
+                "name": "random_normal/mean",
+                "op": "Const"
+            },
+            "pid": 11,
+            "ts": 1569897623096386,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 5
+        },
+        {
+            "name": "Const",
+            "args": {
+                "name": "random_normal/stddev",
+                "op": "Const"
+            },
+            "pid": 11,
+            "ts": 1569897623096393,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 3
+        },
+        {
+            "name": "Const",
+            "args": {
+                "name": "random_normal_1/shape",
+                "op": "Const"
+            },
+            "pid": 11,
+            "ts": 1569897623096416,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 5
+        },
+        {
+            "name": "Const",
+            "args": {
+                "name": "random_normal_1/mean",
+                "op": "Const"
+            },
+            "pid": 11,
+            "ts": 1569897623096423,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 3
+        },
+        {
+            "name": "Const",
+            "args": {
+                "name": "random_normal_1/stddev",
+                "op": "Const"
+            },
+            "pid": 11,
+            "ts": 1569897623096428,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 4
+        },
+        {
+            "name": "RandomStandardNormal",
+            "args": {
+                "input0": "random_normal/shape",
+                "name": "random_normal/RandomStandardNormal",
+                "op": "RandomStandardNormal"
+            },
+            "pid": 11,
+            "ts": 1569897623096433,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 69
+        },
+        {
+            "name": "RandomStandardNormal",
+            "args": {
+                "input0": "random_normal_1/shape",
+                "name": "random_normal_1/RandomStandardNormal",
+                "op": "RandomStandardNormal"
+            },
+            "pid": 11,
+            "ts": 1569897623096512,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 23
+        },
+        {
+            "name": "Mul",
+            "args": {
+                "input0": "random_normal/RandomStandardNormal",
+                "input1": "random_normal/stddev",
+                "name": "random_normal/mul",
+                "op": "Mul"
+            },
+            "pid": 11,
+            "ts": 1569897623096540,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 32
+        },
+        {
+            "name": "Mul",
+            "args": {
+                "input0": "random_normal_1/RandomStandardNormal",
+                "input1": "random_normal_1/stddev",
+                "name": "random_normal_1/mul",
+                "op": "Mul"
+            },
+            "pid": 11,
+            "ts": 1569897623096574,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 18
+        },
+        {
+            "name": "Add",
+            "args": {
+                "input0": "random_normal/mul",
+                "input1": "random_normal/mean",
+                "name": "random_normal",
+                "op": "Add"
+            },
+            "pid": 11,
+            "ts": 1569897623096594,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 30
+        },
+        {
+            "name": "Add",
+            "args": {
+                "input0": "random_normal_1/mul",
+                "input1": "random_normal_1/mean",
+                "name": "random_normal_1",
+                "op": "Add"
+            },
+            "pid": 11,
+            "ts": 1569897623096626,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 18
+        },
+        {
+            "name": "MatMul",
+            "args": {
+                "input0": "random_normal",
+                "input1": "random_normal_1",
+                "name": "MatMul",
+                "op": "MatMul"
+            },
+            "pid": 11,
+            "ts": 1569897623096646,
+            "cat": "Op",
+            "tid": 0,
+            "ph": "X",
+            "dur": 46
         }
     ]
 }
